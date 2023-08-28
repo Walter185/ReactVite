@@ -8,7 +8,7 @@ const Footer = styled.footer`
 `;
 const LinkExterno = styled.a`
     text-decoration: none;
-    color: ${({ theme }) => theme.primero};
+    color: ${({ theme }) => theme.mainero};
     font-weight: 700;
 `;
 

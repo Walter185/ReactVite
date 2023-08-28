@@ -7,7 +7,6 @@ import useAuth from '../hooks/useAuth';
 import Swal from 'sweetalert2';
 
 const Login = () => {
-
     let navigate = useNavigate();
     let location = useLocation();
     let from = location.state?.from?.pathname ||  "/products" ;
